@@ -1,51 +1,3 @@
-
-Conversa aberta. Uma mensagem não lida.
-
-Pular para o conteúdo
-Como usar o E-mail de SEED com leitores de tela
-6 de 7.810
-(sem assunto)
-Caixa de entrada
-FERNANDA PIRES CORDEIRO <fernanda.pires.cordeiro@escola.pr.gov.br>
-	
-11:30 (há 4 horas)
-	
-para mim
-index
-<!DOCTYPE html>
-<html lang="pt-br">
-    
-    <!-- Código omitido -->
-    <body>
-        <section class="conteudo">
-            <div class="conteudo-titulo">
-                <img src="unlock.svg" alt="cadeado fechado"> 
-                <h2 class="titulo-principal">Gerador de senhas</h2>
-                <h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
-            </div>
-            <div class="conteudo-senha">
-                <label for="senha">Senha</label>
-                <input name="senha" type="text" id="campo-senha"/>
-            </div>
-        </section>
-    </body>
-</html>
-<div class="parametro-coluna__senha">
-    <div class="parametro-senha">
-        <h4 class="parametro-senha__titulo">Número de caracteres</h4>
-    </div>               
-    <div class="parametro-senha">
-        <h4 class="parametro-senha__titulo">Características da senha</h4>
-    </div>
-    <div class="parametro-senha">
-        <h4 class="parametro-senha__titulo">Força da senha</h4>
-    </div>
-</div>
-
-
-style 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root{
@@ -125,6 +77,33 @@ body{
         flex-direction: row;
     }
 }
+<!-- código omitido  -->
+
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+}
+
+<!-- código omitido  -->
+<!-- código omitido  -->
+
+.parametro-senha__botao{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+}
+
+.parametro-senha__texto{
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+    font-size: 24px;
+}
+
+<!-- código omitido  -->
 
 
 
